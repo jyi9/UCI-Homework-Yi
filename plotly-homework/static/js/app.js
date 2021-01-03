@@ -1,6 +1,6 @@
 var samples = "";
 
-d3.json("../../sample_data/samples.json").then((data) => {
+d3.json("../data/samples.json").then((data) => {
     samples = data;
     // // add option for each client in dropdown menu
     d3.select("#selDataset").selectAll("option")
