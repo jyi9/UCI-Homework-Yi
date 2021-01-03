@@ -1,5 +1,5 @@
 function init() {
-	const data = d3.json("samples.json").then( (data) => {
+	const data = d3.json("../data/samples.json").then( (data) => {
 		const sample_data = data.samples;
         const sample_ids = [];
         const metadata_data = data.metadata;
@@ -99,7 +99,7 @@ function find_sample_by_id(samples, id){
 d3.selectAll("body").on("change",updatePlotly); 
 
 function updatePlotly() {
-	const data = d3.json("samples.json").then( (data) => {
+	const data = d3.json("../data/samples.json").then( (data) => {
         const sample_data = data.samples;
         const metadata_data = data.metadata;
 
