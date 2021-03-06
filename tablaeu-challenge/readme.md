@@ -1,4 +1,6 @@
+visual solution: 
 
+https://public.tableau.com/profile/jacqueline.yi3577#!/vizhome/tableauhomework_16149924170670/popularstartstations?publish=yes
 
 WRITE UP: 
 
